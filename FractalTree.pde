@@ -11,7 +11,9 @@ public void draw()
 {   
   background(0);  
   line(320, 480, 320, 380);   
-  drawBranches(320, 380, 100, 3*Math.PI/2);  //will add later
+  drawBranches(320, 380, 100, 3*Math.PI/2);
+  drawBranches(160, 400, 40, 3*Math.PI/2);
+  drawBranches(480, 400, 40, 3*Math.PI/2);
 } 
 public void drawBranches(int x, int y, double branchLength, double angle) 
 {   
